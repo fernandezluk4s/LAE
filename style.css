@@ -216,3 +216,21 @@ footer { /* Barra de rodapé */
     padding: 10px;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 1.75em;
+    }
+
+    .hero p {
+        font-size: 0.75em;
+    }
+
+    .hero-image img {
+        max-width: 150px;
+    }
+
+    .buy {
+        font-size: 0.7em;
+    }
+}
