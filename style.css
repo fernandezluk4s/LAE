@@ -234,9 +234,9 @@ footer { /* Barra de rodapé */
     }
 
     .product-grid {
-        display: flex;
+        display: grid;
     }
     .product {
-        max-width: 100px;
+        max-width: 150px;
     }
 }
