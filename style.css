@@ -101,10 +101,11 @@ nav {
 }
 
 .product-grid {
-    display: flex;
+    display: grid; /* Changed from flex to grid to enable grid-template-columns */
     grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
     gap: 20px;
     padding: 20px;
+    justify-content: center; /* Center the grid items */
 }
 
 .product-grid a {
