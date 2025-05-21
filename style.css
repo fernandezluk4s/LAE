@@ -126,7 +126,7 @@ nav {
 }
 
 .product img {
-    max-width: 200px;
+    max-width: 100%;
 }
 
 .product h1 {
