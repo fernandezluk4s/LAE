@@ -101,7 +101,7 @@ nav {
 }
 
 .product-grid {
-    display: wrap;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(50px, 50px));
     gap: 20px;
     padding: 20px;
