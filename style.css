@@ -102,7 +102,7 @@ nav {
 
 .product-grid {
     display: flex; /* Changed from flex to grid to enable grid-template-columns */
-    max-width: 1600px; /* Define a largura máxima do contêiner flex */
+    max-width: 1300px; /* Define a largura máxima do contêiner flex */
     gap: 20px;
     padding: 20px;
 }
