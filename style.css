@@ -240,16 +240,4 @@ footer { /* Barra de rodapé */
     .product {
         max-width:400px;
     }
-    
-    .product h1 {
-        font-size: 1em;
-    }
-
-    .product p {
-        font-size: 0,8em;
-    }
-
-    .product-details {
-    padding: 10px;
-    }
 }
