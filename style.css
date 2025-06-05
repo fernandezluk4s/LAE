@@ -234,11 +234,19 @@ footer { /* Barra de rodapé */
     }
 
     .hero-image img {
-        max-width: 150px;
+        max-width: 80px;
     }
 
-    .learn-more { 
-        font-size: 0.1em;
+    .learn { 
+        font-size: 0.5em;
+    }
+
+    .product h1 {
+        font-size: 0.7em;
+    }
+
+    .product p {
+        font-size: 0.6em;
     }
     
     .product {
