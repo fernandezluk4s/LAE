@@ -236,18 +236,13 @@ footer { /* Barra de rodapé */
     .buy {
         font-size: 0.7em;
     }
-
-    .product-grid {
-        display: flex;
-    }
     
     .product {
-        max-width:120px;
+        max-width:400px;
     }
     
     .product h1 {
-    font-size: 1em;
-        margin-bottom: 20px;
+        font-size: 1em;
     }
 
     .product p {
