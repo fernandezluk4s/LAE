@@ -241,4 +241,21 @@ footer { /* Barra de rodapé */
     .product {
         max-width:400px;
     }
+
+    .learn {
+        font-size: 0.4em;
+    }
+
+    .product h1 {
+        font-size: 1em;
+    }
+
+    .product p {
+        font-size: 0.7em;
+    }
+
+    .product {
+        min-width: 75px;
+        max-width:100px;
+    }
 }
