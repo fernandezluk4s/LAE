@@ -248,4 +248,8 @@ footer { /* Barra de rodapé */
     .product p {
         font-size: 0,8em;
     }
+
+    .product-details {
+    font-size: 1em;
+    }
 }
