@@ -240,7 +240,17 @@ footer { /* Barra de rodapé */
     .product-grid {
         display: flex;
     }
+    
     .product {
         max-width:120px;
+    }
+    
+    .product h1 {
+    font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    .product p {
+        font-size: 0,8em;
     }
 }
