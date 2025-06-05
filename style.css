@@ -247,6 +247,7 @@ footer { /* Barra de rodapé */
     }
 
     .product {
+        min-width: 50px;
         max-width:50px;
     }
 }
