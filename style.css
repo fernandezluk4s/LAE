@@ -241,6 +241,6 @@ footer { /* Barra de rodapé */
         display: flex;
     }
     .product {
-        max-width:200px;
+        max-width:120px;
     }
 }
