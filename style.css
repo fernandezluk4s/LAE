@@ -98,6 +98,7 @@ nav {
 
 .hero-image img {
     max-width: 240px;
+    padding: 0px 10px;
 }
 
 .product-grid {
@@ -234,7 +235,7 @@ footer { /* Barra de rodapé */
     }
 
     .hero-image img {
-        max-width: 100px;
+        max-width: 120px;
     }
 
     .product {
