@@ -234,6 +234,10 @@ footer { /* Barra de rodapé */
         font-size: 0.7em;
     }
 
+    .learn {
+        font-size: 0.7em;
+    }
+
     .product h1 {
         font-size: 1em;
     }
@@ -248,6 +252,6 @@ footer { /* Barra de rodapé */
 
     .product {
         min-width: 75px;
-        max-width:120px;
+        max-width:110px;
     }
 }
