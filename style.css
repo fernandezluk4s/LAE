@@ -229,6 +229,10 @@ footer { /* Barra de rodapé */
         font-size: 0.8em;
     }
 
+    .buy {
+        font-size: 0.75em;
+    }
+
     .hero-image img {
         max-width: 150px;
     }
