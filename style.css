@@ -237,7 +237,7 @@ footer { /* Barra de rodapé */
         max-width: 80px;
     }
 
-    .learn { 
+    <--.learn { 
         font-size: 0.7em;
     }
 
@@ -251,5 +251,5 @@ footer { /* Barra de rodapé */
     
     .product {
         max-width:20px;
-    }
+    }-->
 }
