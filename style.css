@@ -235,11 +235,11 @@ footer { /* Barra de rodapé */
     }
 
     .product h1 {
-        font-size: 1.25em;
+        font-size: 1em;
     }
 
     .product p {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
     .hero-image img {
@@ -248,6 +248,6 @@ footer { /* Barra de rodapé */
 
     .product {
         min-width: 75px;
-        max-width:100px;
+        max-width:120px;
     }
 }
