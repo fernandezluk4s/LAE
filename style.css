@@ -236,6 +236,10 @@ footer { /* Barra de rodapé */
     .buy {
         font-size: 0.7em;
     }
+
+    .learn-more { 
+        font-size: 0.5em;
+    }
     
     .product {
         max-width:400px;
