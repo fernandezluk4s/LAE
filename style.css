@@ -107,7 +107,7 @@ nav {
     gap: 20px;
     padding: 20px;
     flex-wrap: wrap;
-    justfy-content: center;
+    /*justify-content: center;*/
 }
 
 .product-grid a {
@@ -134,7 +134,7 @@ nav {
 }
 
 .product h1 {
-    font-size: 1.25em;
+    font-size: 1.20em;
     margin-bottom: 20px;
 }
 
