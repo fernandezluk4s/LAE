@@ -59,7 +59,7 @@ nav {
 /* Seção principal */
 .hero {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   justify-content: center;
   align-items: center;
   padding: 40px 20px;
