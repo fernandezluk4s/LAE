@@ -269,13 +269,13 @@ footer {
   }
 
   .hero-image img {
-      max-width: 100px;
+      max-width: 90px;
   }
 
   .hero a {
-    padding: 8px 16px; /* menor altura e largura */
-    font-size: 0.9em; /* diminui o tamanho do texto */
-    border-radius: 20px; /* pode manter ou ajustar para ficar proporcional */
+    padding: 7px 14px; /* menor altura e largura */
+    font-size: 0.7em; /* diminui o tamanho do texto */
+    border-radius: 22px; /* pode manter ou ajustar para ficar proporcional */
   }
 
   .product {
