@@ -255,10 +255,10 @@ footer {
 
 /* Responsivo */
 @media (max-width: 768px) {
-  .hero {
+  /*.hero {
     flex-direction: column;
     text-align: center;
-  }
+  }*/
 
   .hero h1 {
       font-size: 1em;
