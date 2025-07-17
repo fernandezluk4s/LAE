@@ -1,45 +1,29 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const saibaMaisLinks = document.querySelectorAll('.saiba-mais-link');
-    const productDetailsSections = document.querySelectorAll('.product-details');
+document.addEventListener('DOMContentLoaded', () => {
+  const sliders = document.querySelectorAll('.image-slider-container');
 
-    saibaMaisLinks.forEach(link => {
-        link.addEventListener('click', function(event) {
-            event.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
+  sliders.forEach(slider => {
+    const track = slider.querySelector('.image-track');
+    const images = slider.querySelectorAll('.slider-image');
+    const prevBtn = slider.querySelector('.prev-btn');
+    const nextBtn = slider.querySelector('.next-btn');
 
-            productDetailsSections.forEach(section => {
-                section.style.display = 'none';
-            });
+    let index = 0;
 
-            document.getElementById(targetId).style.display = 'block';
-        });
+    const updateSlider = () => {
+      const slideWidth = slider.offsetWidth;
+      track.style.transform = `translateX(-${index * slideWidth}px)`;
+    };
+
+    nextBtn.addEventListener('click', () => {
+      index = (index + 1) % images.length;
+      updateSlider();
     });
-});
-document.addEventListener('DOMContentLoaded', function() {
-    const sliders = document.querySelectorAll('.image-slider-container');
 
-    sliders.forEach(slider => {
-        const track = slider.querySelector('.image-track');
-        const images = slider.querySelectorAll('.slider-image');
-        const sliderWidth = slider.offsetWidth; // Largura do contêiner do slider
-        const prevBtn = slider.querySelector('.prev-btn');
-        const nextBtn = slider.querySelector('.next-btn');
-        let currentIndex = 0;
-
-        function updateTrack() {
-            track.style.transform = `translateX(-${currentIndex * sliderWidth}px)`;
-        }
-
-        if (prevBtn && nextBtn) {
-            prevBtn.addEventListener('click', () => {
-                currentIndex = Math.max(currentIndex - 1, 0);
-                updateTrack();
-            });
-
-            nextBtn.addEventListener('click', () => {
-                currentIndex = Math.min(currentIndex + 1, images.length - 1);
-                updateTrack();
-            });
-        }
+    prevBtn.addEventListener('click', () => {
+      index = (index - 1 + images.length) % images.length;
+      updateSlider();
     });
+
+    window.addEventListener('resize', updateSlider);
+  });
 });
