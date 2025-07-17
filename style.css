@@ -261,15 +261,15 @@ footer {
   }
 
   .hero h1 {
-      font-size: 1.50em;
+      font-size: 1em;
   }
 
   .hero p {
-      font-size: 0.6em;
+      font-size: 0.3em;
   }
 
   .hero-image img {
-      max-width: 120px;
+      max-width: 100px;
   }
 
   .buy {
