@@ -261,7 +261,7 @@ footer {
   }*/
 
   .hero h1 {
-      font-size: 1.60em;
+      font-size: 1.7em;
   }
 
   .hero p {
@@ -273,8 +273,8 @@ footer {
   }
 
   .hero a {
-    padding: 8px 16px; /* menor altura e largura */
-    font-size: 0.8em; /* diminui o tamanho do texto */
+    padding: 7px 14px; /* menor altura e largura */
+    font-size: 0.7em; /* diminui o tamanho do texto */
     border-radius: 20px; /* pode manter ou ajustar para ficar proporcional */
   }
 
