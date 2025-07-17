@@ -22,7 +22,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .logo img {
@@ -262,11 +261,19 @@ footer {
   }
 
   .hero h1 {
-    font-size: 2em;
+      font-size: 1.75em;
   }
 
   .hero p {
-    font-size: 1em;
+      font-size: 0.8em;
+  }
+
+  .hero-image img {
+      max-width: 120px;
+  }
+
+  .buy {
+      font-size: 0.7em;
   }
 
   .product {
