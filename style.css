@@ -283,7 +283,7 @@ footer {
   }
 
   .image-slider-container {
-    max-width: 250px; /* Ajuste este valor para o tamanho que você quer no celular */
+    max-width: 400px; /* Ajuste este valor para o tamanho que você quer no celular */
     /* Se a imagem única do Polaroid tem 250px de largura, mantenha aqui */
   }
 
