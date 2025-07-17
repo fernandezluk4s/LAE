@@ -261,11 +261,11 @@ footer {
   }
 
   .hero h1 {
-      font-size: 1em;
+      font-size: 1.70em;
   }
 
   .hero p {
-      font-size: 0.3em;
+      font-size: 0.6em;
   }
 
   .hero-image img {
@@ -273,7 +273,7 @@ footer {
   }
 
   .buy {
-      font-size: 0.5em;
+      size: 0.5em;
   }
 
   .product {
