@@ -1,0 +1,301 @@
+/* Fonte e reset */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #801637;
+  color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #5c0527;
+  padding: 15px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 60px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffccdd;
+}
+
+.nav-icons img {
+  max-width: 60px;
+}
+
+/* Seção principal */
+.hero {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #5c0527 30%, #801637);
+}
+
+.hero-content {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero a {
+  text-decoration: none;
+  padding: 12px 24px;
+  margin: 5px 10px;
+  border-radius: 25px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.buy {
+  background-color: #ffffff;
+  color: #5c0527;
+  transition: background 0.3s, color 0.3s;
+}
+
+.buy:hover {
+  background-color: #ffccdd;
+  color: #801637;
+}
+
+.hero-image img {
+  max-width: 240px;
+  padding: 10px;
+}
+
+/* Produtos */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.product {
+  background-color: #5c0527;
+  border-radius: 20px;
+  text-align: center;
+  padding: 30px 20px;
+  max-width: 280px;
+  flex: 1 1 280px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px #ff2150;
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.product h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  margin: 20px 0 10px;
+}
+
+.product p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.learn {
+  background-color: #801637;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.learn:hover {
+  background-color: #ff2150;
+}
+
+/* Slider */
+.image-slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.image-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-track {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.slider-image {
+  flex: 0 0 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Botões do slider */
+.slider-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  padding: 0 10px;
+  pointer-events: none;
+}
+
+.slider-controls button {
+  pointer-events: all;
+  background: #ffffff;
+  color: #801637;
+  border: 2px solid #801637;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.slider-controls button:hover {
+  background: #ff2150;
+  color: white;
+}
+
+/* Rodapé */
+footer {
+  background-color: #5c0527;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 0 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-links a:hover {
+  color: #ffccdd;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  /*.hero {
+    flex-direction: column;
+    text-align: center;
+  }*/
+
+  .hero h1 {
+      font-size: 1.7em;
+  }
+
+  .hero p {
+      font-size: 0.7em;
+  }
+
+  .hero-image img {
+      max-width: 120px;
+  }
+
+  .hero a {
+    padding: 7px 14px; /* menor altura e largura */
+    font-size: 0.7em; /* diminui o tamanho do texto */
+    border-radius: 20px; /* pode manter ou ajustar para ficar proporcional */
+  }
+
+  .product {
+    max-width: 90%;
+  }
+
+  .image-slider-container {
+    max-width: 400px; /* Ajuste este valor para o tamanho que você quer no celular */
+    /* Se a imagem única do Polaroid tem 250px de largura, mantenha aqui */
+  }
+
+  .slider-controls button {
+    width: 28px;
+    height: 28px;
+    font-size: 0.9rem;
+  }
+
+  .slider-controls button {
+    width: 28px;
+    height: 28px;
+    font-size: 0.9rem;
+  }
+}
